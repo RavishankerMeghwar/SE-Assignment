@@ -16,7 +16,7 @@ PUBLISHED DATE: Tue 14 Jul 2020 02:00 - 02:15 at ICPC - Session 4: Summalization
 
 
                                                          SUMMARY 
-                                                                                     
+                                
                                                        INTRODUCTION
                                                       
 
@@ -170,4 +170,4 @@ In 85% of their responses, developers either weakly or strongly agreed that the 
 
 
 
-                                                                          --THE END--
+                                                                  --THE END--
