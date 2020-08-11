@@ -61,6 +61,18 @@ First They find that human-written summaries help developers comprehend code sig
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
                                                              PAPER No-2
 
                                      On the Relationship between User Churn and Software Issues
@@ -77,7 +89,8 @@ CONFERENCE:  In 17th International conference on Mining Software Repositories
 Published Date:   Mon 29 Jun 2020 14:40 - 14:50 at MSR:Zoom – Bugs & Issues Chair(s): Francisco Servant.
 
  
-                                                              SUMMARY                                                                                                                             
+                                                              SUMMARY  
+                                                              
                                                             INTRODUCTION
                                                               
 The satisfaction of users is only part of the success of a software product, since a strong competition can easily detract users from a software product/service. Such data about user satisfaction has been continuously used by researchers to study the most important factors to explain user satisfaction. For example, Panichella et al. identified useful user reviews of mobile apps. so that developers can improve their apps accordingly (e.g., by addressing feature requests within such reviews). Other research works have extracted user feedback , and studied the planning process of future releases based on user reviews.
@@ -108,6 +121,15 @@ In this paper finally got result, They study the data available on alternativeto
 
 
  
+
+
+
+
+
+
+
+
+
 
 
 
@@ -171,3 +193,23 @@ In 85% of their responses, developers either weakly or strongly agreed that the 
 
 
                                                                   --THE END--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
