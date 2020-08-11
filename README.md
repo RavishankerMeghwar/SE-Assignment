@@ -1,9 +1,10 @@
 # SE-Assignment
 
 
-                                            PAPER No-1
+                                                        PAPER NO-1
 
-A Human Study of Comprehension and Code Summarization
+                                   A Human Study of Comprehension and Code Summarization
+
 
 TITLE: A Human Study of Comprehension and Code Summarization
 
@@ -11,9 +12,14 @@ AURTHORS: Sean Stapleton, Yashmeet Gambhir, Alexander LeClair, Zachary Eberhart,
 CONFERENCE: International Conference on Program Comprehension 2020 (13-15 July 2020)
 PUBLISHED DATE: Tue 14 Jul 2020 02:00 - 02:15 at ICPC - Session 4: Summalization Chair(s): Venera Arnaoudova.
 
-                                           SUMMARY 
+                                                         SUMMARY 
                                            
-                                         INTRODUCTION
+                                           
+                                           
+                                           
+                                           
+                                           
+                                                       INTRODUCTION
 
 In A Human Study of Comprehension and Code Summarization research paper  the comprehension of human being of source code provided written by others developers , Using other styles, source code comments play an invaluable role in facilitating program comprehension, Short, descriptive summary comments preceding subroutines have been shown to significantly improve programmers’ ability to answer questions about source code. Recent work has shown that developers consider comments to be the most important documentation artifacts for software maintenance tasks, other than the source code itself. Well documented source code manifestly affects developer productivity both when investigating an existing software project for the first time and when maintaining existing large codebases.
 To address these problems, researchers have proposed numerous techniques to automatically generate summary comments for source code. These techniques traditionally rely on elaborate heuristics and templates to generate comments that resemble natural language. However, designing these methods can entail substantial human effort and implicit assumptions about the ideal structure of comments (e.g., some Java documentation systems rely on a verb-noun style imposed by the developer). In recent years, a new generation of code summarization techniques have emerged that take advantage of deep learning and large, publicly-available code repositories. These neural-network-based approaches have demonstrated tremendous promise, as they are capable of producing summaries that are nearly indistinguishable from human-written comments.
@@ -42,7 +48,7 @@ Survey Instrument
 
 
 
-                                                             RESULTS
+                                                               RESULTS
 
 
 
@@ -52,9 +58,10 @@ First They find that human-written summaries help developers comprehend code sig
 
 
 
-                                                            PAPER No-2
+                                                             PAPER No-2
 
-                                   On the Relationship between User Churn and Software Issues
+                                     On the Relationship between User Churn and Software Issues
+
 
 TITLE: On the Relationship between User Churn and Software Issues
 
@@ -64,10 +71,15 @@ CONFERENCE:  In 17th International conference on Mining Software Repositories
  (MSR 2020) (MSR 2020 Mon 29 - Tue 30 June 2020).
  
 Published Date:   Mon 29 Jun 2020 14:40 - 14:50 at MSR:Zoom – Bugs & Issues Chair(s): Francisco Servant.
+
  
-                                                                SUMMARY
+                                                              SUMMARY
                                                                 
-                                                              INTRODUCTION
+                                                                
+                                                                
+                                                                
+                                                                
+                                                            INTRODUCTION
                                                               
 The satisfaction of users is only part of the success of a software product, since a strong competition can easily detract users from a software product/service. Such data about user satisfaction has been continuously used by researchers to study the most important factors to explain user satisfaction. For example, Panichella et al. identified useful user reviews of mobile apps. so that developers can improve their apps accordingly (e.g., by addressing feature requests within such reviews). Other research works have extracted user feedback , and studied the planning process of future releases based on user reviews.
 The success of software projects is not only defined by the relationship between the software product and its users, but also by the strengths and weaknesses of competitors. a poor user experience may create a bad reputation for the software product, which impairs the adherence of new users  (which would likely adhere to the competitors). An important area of study is to unveil the underlying reasons for losing users to competitors. User churn is the jargon used to denote when a user decides to change from a product/service to those offered by the competition. 
@@ -79,14 +91,14 @@ The goal of the alternativeto.net website is to help users to find software alte
 
 
 
-                                                                Research Methodology
+                                                           Research Methodology
                                                                 
                                                                 
                                                               
 The objective of the aternativeto.net site is to assist clients with finding programming options that can all the more likely location the client’s necessities. The principal challenges happens because the client doesn’t know about all the accessible programming options. Likewise , picking an option for programming is not generally basic since clients might be as of now acquainted with a lot of highlights (from the product being used), which they might not want to settle . considering the .pdf per user model ,while the client wishes a san freezing elective, the clients may feel good to change if the option gives a similar degree of remarking capacities( when contrasted with the per user being used ). Aternativeto.net permits clients to give audits to programming options alongside evaluations (also to Google Play, which permits surveys to be accommodated portable applications). In any case,What sets alternativeto.net separated from different stages is that it permits clients to voice their assessments by putting a product item in context to its rivals.
 
 
-                                                                      RESULTS
+                                                                 RESULTS
                                                                       
                                                                                                                                             
 In this paper finally got result, They study the data available on alternativeto.net to better understand the relationship between software issues and the potential user churn of users. Having observed that user concerns are tightly related to software issues (e.g., bugs), They investigate the relationship between issue reports and the potential user churn of users. Their study reveals key issues that must be addressed for the success of a software product (depending on the domain). For example, they observe that the potential user churn of users may be tightly related to the lack of a robust documentation and support for testing tools (in the “IDE” and “Web Server” domains). Finally, their machine learning models reveal that (i) the longer the issue takes to be fixed, the higher the chances of user churn; and (ii) issues within more general software components are more likely to be associated with user churn. Finally, they suggest that the current prioritization performed by developers should be augmented to encompass the long lived and highly interactive issues. In overall, their study suggests that the prioritization process of issues can be improved by considering the potential user churn of users associated with such issues.
@@ -99,8 +111,9 @@ In this paper finally got result, They study the data available on alternativeto
 
                                                                PAPER NO-3
                                                                
-                              UI Screens Identification and Extraction from Mobile Programming Screencasts
+                               UI Screens Identification and Extraction from Mobile Programming Screencasts
                               
+                               
 TITLE:  UI Screens Identification and Extraction from Mobile Programming Screencasts
 
 AUTHORS:  Mohammad Alahmadi, Abdulkarim Khormi, Sonia Haiduc
@@ -112,10 +125,16 @@ PUBLISHED DATE:  Mon 13 Jul 2020 15:12 - 15:24 at ICPC -Session 1: Tests Chair(s
 
 
 
-                                                                  SUMMARY
+                                                                 SUMMARY
                                                                   
                                                                   
-                                                               INTRODUCTION
+                                                                  
+                                                                  
+                                                                  
+                                                                  
+                                                                  
+                                                                  
+                                                             INTRODUCTION
                                                                
                                                                
                                                                
@@ -131,7 +150,7 @@ The second part of their evaluation is represented by a user study which focuses
 
 
 
-                                                                            Research Methodology
+                                                             Research Methodology
 
 
 
@@ -141,7 +160,7 @@ For this study, They collected a brand new set of 50 programming screencasts (25
 
 
 
-                                                                             RESULTS
+                                                                RESULTS
 
 
 
