@@ -9,24 +9,26 @@
 TITLE: A Human Study of Comprehension and Code Summarization
 
 AURTHORS: Sean Stapleton, Yashmeet Gambhir, Alexander LeClair, Zachary Eberhart, Westley Weimer, Kevin Leach, Yu Huang
+
 CONFERENCE: International Conference on Program Comprehension 2020 (13-15 July 2020)
+
 PUBLISHED DATE: Tue 14 Jul 2020 02:00 - 02:15 at ICPC - Session 4: Summalization Chair(s): Venera Arnaoudova.
 
+
                                                          SUMMARY 
-                                           
-                                           
-                                           
-                                           
-                                           
-                                           
+                                                                                     
                                                        INTRODUCTION
+                                                      
 
 In A Human Study of Comprehension and Code Summarization research paper  the comprehension of human being of source code provided written by others developers , Using other styles, source code comments play an invaluable role in facilitating program comprehension, Short, descriptive summary comments preceding subroutines have been shown to significantly improve programmers’ ability to answer questions about source code. Recent work has shown that developers consider comments to be the most important documentation artifacts for software maintenance tasks, other than the source code itself. Well documented source code manifestly affects developer productivity both when investigating an existing software project for the first time and when maintaining existing large codebases.
+
 To address these problems, researchers have proposed numerous techniques to automatically generate summary comments for source code. These techniques traditionally rely on elaborate heuristics and templates to generate comments that resemble natural language. However, designing these methods can entail substantial human effort and implicit assumptions about the ideal structure of comments (e.g., some Java documentation systems rely on a verb-noun style imposed by the developer). In recent years, a new generation of code summarization techniques have emerged that take advantage of deep learning and large, publicly-available code repositories. These neural-network-based approaches have demonstrated tremendous promise, as they are capable of producing summaries that are nearly indistinguishable from human-written comments.
 They included that recent advances in deep learning led to summary generation techniques that convert functions or methods to simple english strings that describes the code behaviour. This paper contained information about techniques for summarization that are assessed using BLEU score, which measure natural language properties in translational models and second is ROUGE score, which measure overlap with human written text.
+
 Still, even state-of-the-art neural approaches to code summarization have room for improvement. Consider. Each example contains a reference comment written by a programmer for a particular method paired with a summary generated using the neural model published by LeClair et al.
 The automatically-generated summaries, while potentially helpful, do not necessarily express what the function does or what its intended purpose is in the same way that the human-written summaries do.
-they found that human-written summaries help developers comprehend code significantly better (p = 0.029) than machine-generated summaries.
+
+They found that human-written summaries help developers comprehend code significantly better (p = 0.029) than machine-generated summaries.
 Human Summary: sorts the specified range of the receiver into ascending numerical order.
 Machine Summary: sorts the receiver according to the order of the order by the.
 Example code snippets, each shown with a Human-written and Machine-generated summary using state-of-the-art neural summarization. The intended purpose of the code is not necessarily reflected in the machine-generated summaries or the associated BLEU scores.
@@ -36,7 +38,8 @@ There is a pressing need for extrinsic studies that show how automatic summariza
 
 
 
-                                                        Research Methodology
+                                                          Research Methodology
+
 
 They describe their methodology for measuring the impact of code summaries on developer productivity. they designed an IRB-approved human study involving 45 undergraduate and graduate computer science students and industrial software developers. Participants were asked to complete two tasks in an anonymous
 online survey. First, they were shown methods written in Java alongside corresponding summaries and asked to answer comprehension questions. Second, participants were given partially-completed Java classes including summaries for all the methods in these classes and asked to complete a method in the class with respect to a held-out test suite. By measuring time taken and answer accuracy, they can develop a model of developer comprehension as a function of type and quality of the code summary used.
@@ -63,6 +66,7 @@ First They find that human-written summaries help developers comprehend code sig
                                      On the Relationship between User Churn and Software Issues
 
 
+
 TITLE: On the Relationship between User Churn and Software Issues
 
 AURTORS: Omar El Zarif, Daniel Alencar Da Costa, Safwat Hassan, Ying Zou
@@ -73,21 +77,20 @@ CONFERENCE:  In 17th International conference on Mining Software Repositories
 Published Date:   Mon 29 Jun 2020 14:40 - 14:50 at MSR:Zoom – Bugs & Issues Chair(s): Francisco Servant.
 
  
-                                                              SUMMARY
-                                                                
-                                                                
-                                                                
-                                                                
-                                                                
+                                                              SUMMARY                                                                                                                             
                                                             INTRODUCTION
                                                               
 The satisfaction of users is only part of the success of a software product, since a strong competition can easily detract users from a software product/service. Such data about user satisfaction has been continuously used by researchers to study the most important factors to explain user satisfaction. For example, Panichella et al. identified useful user reviews of mobile apps. so that developers can improve their apps accordingly (e.g., by addressing feature requests within such reviews). Other research works have extracted user feedback , and studied the planning process of future releases based on user reviews.
 The success of software projects is not only defined by the relationship between the software product and its users, but also by the strengths and weaknesses of competitors. a poor user experience may create a bad reputation for the software product, which impairs the adherence of new users  (which would likely adhere to the competitors). An important area of study is to unveil the underlying reasons for losing users to competitors. User churn is the jargon used to denote when a user decides to change from a product/service to those offered by the competition. 
+
 User churn has been studied extensively in areas other than software engineering, such as mobile operators and telecommunication networks. g Yahoo Answers , Stumble Upon (a web content recommendation system) , Top Eleven - Be A Football Manager (an online mobile game) , Pengyou (a Chinese social network) , using prediction models for predicting user churn.
+
  In this paper, They use data obtained from the alternativeto.net1 website, which has a unique feature that allows users to recommend alternatives for a specific software product. The recommendation of alternatives can signal the intention to switch from one software product to another. They refer to the recommendation for an alternative software product as simply potential user churn.
 By using the alternativeto.net dataset, They formulate an empirical study to investigate the (i) Web Browsers, (ii) IDEs and (iii) Web Servers domains on the alternativeto.net website.
+
 They first extract 3,556 reviews and 10,081 comments to better understand the overall concerns of users regarding the software products in the studied domains.
 The goal of the alternativeto.net website is to help users to find software alternatives that can better address the users’ necessities. For instance, let us consider that a user needs a better .pdf reader (e.g., the current reader freezes occasionally). The first challenge occurs because the user is not aware of all the available software alternatives. In addition, choosing an alternative for a software is not always simple, since users may be already familiar with a set of features (from the software in use), which they would not like to compromise. Considering the .pdf reader example, while the user wishes a freezing-free alternative, the user may only feel comfortable to change if the alternative provides the same level of commenting capabilities (as compared to the reader in use).
+
 
 
 
@@ -125,16 +128,9 @@ PUBLISHED DATE:  Mon 13 Jul 2020 15:12 - 15:24 at ICPC -Session 1: Tests Chair(s
 
 
 
-                                                                 SUMMARY
+                                                                SUMMARY
                                                                   
-                                                                  
-                                                                  
-                                                                  
-                                                                  
-                                                                  
-                                                                  
-                                                                  
-                                                             INTRODUCTION
+                                                              INTRODUCTION
                                                                
                                                                
                                                                
